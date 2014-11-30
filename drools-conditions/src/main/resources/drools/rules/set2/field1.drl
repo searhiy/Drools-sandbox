@@ -1,0 +1,10 @@
+import java.util.List;
+
+global drools.model.User user
+
+rule "Rule: set2-field1"
+    when
+
+    then
+        user.getName();
+end
